@@ -1,8 +1,26 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import localFont from 'next/font/local'
+import { Urbanist } from "next/font/google";
 import "./globals.css";
+import Header from "./header";
+import Head from "next/head";
 
-const inter = Inter({ subsets: ["latin"] });
+ 
+// Font files can be colocated inside of `pages`
+const seasons = localFont({ 
+  src: './fonts/theseasons-reg-webfont.woff2',
+  variable: '--font-the-seasons'
+})
+
+const urbanist = Urbanist({
+  subsets: ["latin"],
+  variable: "--font-urbanist"
+})
+
+const beth_ellen = localFont({
+  src: "./fonts/BethEllen.otf",
+  variable: "--font-beth-ellen"
+})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +34,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${seasons.variable} font-serif, ${beth_ellen.variable} font-sans, ${urbanist.variable}, font-mono`}>
+        <Header />
+        <main>
+          {children}
+        </main>
+        </body>
     </html>
   );
 }
