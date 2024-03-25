@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 import localFont from 'next/font/local'
-import { Urbanist } from "next/font/google";
+import { Urbanist, Beth_Ellen } from "next/font/google";
 import "./globals.css";
 import Header from "./header";
-import Head from "next/head";
 
  
 // Font files can be colocated inside of `pages`
@@ -17,8 +16,9 @@ const urbanist = Urbanist({
   variable: "--font-urbanist"
 })
 
-const beth_ellen = localFont({
-  src: "./fonts/BethEllen.otf",
+const beth_ellen = Beth_Ellen({
+  weight: '400',
+  subsets: ["latin"],
   variable: "--font-beth-ellen"
 })
 
