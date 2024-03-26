@@ -35,7 +35,7 @@ h4,h5,h6 {
   font-family: var(--font-beth-ellen);
 }
 
-a {
+a, p {
   font-family: var(--font-the-seasons);
 }
 
