@@ -14,7 +14,7 @@ export default function RSVP() {
                     console.log('trigger load embed')
                 }}
             />
-      <Script>
+      <Script id="tally-trigger">
         {`console.log('trigger load embed')
                     Tally.loadEmbeds();`}
       </Script>
