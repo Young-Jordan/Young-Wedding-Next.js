@@ -3,6 +3,7 @@ import localFont from 'next/font/local'
 import { Urbanist, Beth_Ellen } from "next/font/google";
 import "./globals.css";
 import Header from "./header";
+import Script from "next/script";
 
  
 // Font files can be colocated inside of `pages`
