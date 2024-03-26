@@ -10,12 +10,14 @@ export default function RSVP() {
                 id="tally-js"
                 src="https://tally.so/widgets/embed.js"
                 onLoad={() => {
-                    Tally.loadEmbeds();
+                    /* ts-ignore */
+                    console.log('trigger load embed')
                 }}
             />
-            <Script id="tally-retrigger">
-                {`Tally.loadEmbeds();`}
-            </Script>
+      <Script>
+        {`console.log('trigger load embed')
+                    Tally.loadEmbeds();`}
+      </Script>
       </div>
     </section>
   )
