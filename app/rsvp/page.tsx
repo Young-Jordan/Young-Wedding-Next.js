@@ -13,7 +13,7 @@ export default function RSVP() {
                     Tally.loadEmbeds();
                 }}
             />
-            <Script>
+            <Script id="tally-retrigger">
                 {`Tally.loadEmbeds();`}
             </Script>
       </div>
