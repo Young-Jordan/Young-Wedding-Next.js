@@ -17,6 +17,13 @@ const config: Config = {
         sans: ['var(--font-beth-ellen)'],
         serif: ['var(--font-the-seasons)'],
       },
+      colors: {
+        primary:"rgb(var(--background-rgb))",
+        accent: "var(--accent-rgb)"
+      },
+      backgroundColor: {
+        primary: "rgb(var(--background-rgb))"
+      }
     },
   },
   plugins: [],

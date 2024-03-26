@@ -1,8 +1,10 @@
 import React from 'react'
 import plane from '../../public/plane.svg'
 import Image from 'next/image'
+import { motion } from 'framer-motion'
 
 export default function Travel() {
+
   return (
     <section className="flex min-h-screen flex-col items-center text-center justify-center p-24">
       <div className='flex flex-col mb-12 items-center'>
