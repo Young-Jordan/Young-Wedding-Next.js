@@ -10,7 +10,6 @@ import { usePathname } from "next/navigation";
 const sidebar = {
 	open: ({
 	  opacity: 1,
-	  display: "block", 
 	  transition: {
 		type: "spring",
 		stiffness: 400,
@@ -23,9 +22,6 @@ const sidebar = {
 		type: "spring",
 		stiffness: 400,
 		damping: 40
-	  },
-	  transitionEnd: {
-		display: "none"
 	  }
 	}
   };
