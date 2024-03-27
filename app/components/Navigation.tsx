@@ -6,7 +6,7 @@ const NavLinks = [
 
 	{ id: 1, name: 'rsvp', path: '/rsvp', description: "Let us know you can make it" },
 	{ id: 2, name: 'registry', path: '/registry', description: "Where we are registered for gifts" },
-  { id: 3, name: 'details', path: '/details', description: "When & Where its happening"},
+  { id: 3, name: 'details', path: '/details', description: "When & where its happening"},
 ];
 
 const variants = {

@@ -21,6 +21,20 @@
   --accent-rgb: #ba8a5f;
 }
 
+audio::-webkit-media-controls-enclosure {
+  background-color: transparent;
+}
+
+audio::-webkit-media-controls-timeline,
+video::-webkit-media-controls-timeline {
+    display: none;
+}
+
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+    display: none;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background:rgb(var(--background-rgb));

@@ -14,7 +14,7 @@ import Appear from "./Appear";
 export default function AboutUs() {
     
   return (
-    <section className="flex min-h-screen h-screen relative items-center text-center justify-center lg:p-24 p-12 gap-y-12">
+    <section className="flex min-h-screen h-screen relative items-center text-center justify-center lg:p-24 p-10 gap-y-12">
       <div className="w-3/4">
         <Appear>
         <h3>

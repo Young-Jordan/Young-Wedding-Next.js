@@ -27,14 +27,14 @@ export const MenuItem = ({i} : {i : {id: number, path: string, name: string, des
     
   return (
     <li className="overflow-hidden relative flex flex-col justify-center items-center" key={i.id}>
-        <p>{i.description}</p>
+        <p className="lg:block hidden">{i.description}</p>
     <motion.div variants={variants} whileHover={{
     color: "var(--accent-rgb)",
     transition: { duration: 0.2 },
   }}>
         <Link 
             href={i.path}
-			      className={isActive(i.path) ? 'text-accent text-9xl uppercase' : 'text-9xl uppercase'}>
+			      className={isActive(i.path) ? 'text-accent lg:text-9xl text-4xl uppercase' : 'lg:text-9xl text-4xl uppercase'}>
 		    {i.name}
 		  </Link>
     </motion.div>

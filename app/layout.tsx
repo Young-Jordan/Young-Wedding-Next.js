@@ -4,6 +4,7 @@ import { Urbanist, Beth_Ellen } from "next/font/google";
 import "./globals.css";
 import Header from "./header";
 import Script from "next/script";
+import Footer from "./footer";
 
  
 // Font files can be colocated inside of `pages`
@@ -40,6 +41,7 @@ export default function RootLayout({
         <main>
           {children}
         </main>
+        <Footer />
         </body>
     </html>
   );
