@@ -14,10 +14,10 @@ import Appear from "./Appear";
 export default function AboutUs() {
     
   return (
-    <section className="flex min-h-screen h-screen relative items-center text-center justify-center lg:p-24 p-10 gap-y-12">
-      <div className="w-3/4">
+    <section className="flex min-h-screen h-screen relative items-center text-center justify-center lg:p-24 p-5 gap-y-12">
+      <div className="lg:w-3/4">
         <Appear>
-        <h3>
+        <h3 className="text-base">
           During our freshman year of college, Nikole quietly had a crush on Jordan. It remained a silent chapter of our collage days, as we neared our graduation, a chance encounter on Instagram turned the page. Jordan&apos;s simple message to Nikole bridged years of silent longing, igniting a conversation that blossomed into a profound connection. Now, five years into our relationship that feels both serendipitous and inevitable, we reflect on the journey from unspoken affection to shared happiness. Our love story, sparked by a digital hello, stands as a testament to the unexpected ways life can weave two paths into one.
         </h3>
         </Appear>
