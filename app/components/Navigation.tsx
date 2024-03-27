@@ -4,9 +4,9 @@ import { MenuItem } from "./MenuItem";
 
 const NavLinks = [
 
-	{ id: 1, name: 'rsvp', path: '/rsvp' },
-	{ id: 2, name: 'registry', path: '/registry' },
-  { id: 3, name: 'details', path: '/details' },
+	{ id: 1, name: 'rsvp', path: '/rsvp', description: "Let us know you can make it" },
+	{ id: 2, name: 'registry', path: '/registry', description: "Where we are registered for gifts" },
+  { id: 3, name: 'details', path: '/details', description: "When & Where its happening"},
 ];
 
 const variants = {

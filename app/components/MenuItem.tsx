@@ -21,12 +21,13 @@ const variants = {
 
 }
 
-export const MenuItem = ({i} : {i : {id: number, path: string, name: string}}) => {
+export const MenuItem = ({i} : {i : {id: number, path: string, name: string, description: string}}) => {
     const pathname = usePathname();
     const isActive = (path : any) => path === pathname
     
   return (
-    <li className="overflow-hidden relative" key={i.id}>
+    <li className="overflow-hidden relative flex flex-col justify-center items-center" key={i.id}>
+        <p>{i.description}</p>
     <motion.div variants={variants} whileHover={{
     color: "var(--accent-rgb)",
     transition: { duration: 0.2 },

@@ -18,7 +18,7 @@ export default function AboutUs() {
       <div className="w-3/4">
         <Appear>
         <h3>
-          During our freshman year of college, Nikole quietly cherished a crush on Jordan, a sentiment hidden amidst the rush and tumble of student life. It remained a silent chapter of our youth until, we neared our graduation, a chance encounter on Instagram turned the page. Jordan&apos;s simple message to Nikole bridged years of silent longing, igniting a conversation that blossomed into a profound connection. Now, five years into our relationship that feels both serendipitous and inevitable, we reflect on the journey from unspoken affection to shared happiness. Our love story, sparked by a digital hello, stands as a testament to the unexpected ways life can weave two paths into one.
+          During our freshman year of college, Nikole quietly had a crush on Jordan. It remained a silent chapter of our collage days, as we neared our graduation, a chance encounter on Instagram turned the page. Jordan&apos;s simple message to Nikole bridged years of silent longing, igniting a conversation that blossomed into a profound connection. Now, five years into our relationship that feels both serendipitous and inevitable, we reflect on the journey from unspoken affection to shared happiness. Our love story, sparked by a digital hello, stands as a testament to the unexpected ways life can weave two paths into one.
         </h3>
         </Appear>
       </div>
