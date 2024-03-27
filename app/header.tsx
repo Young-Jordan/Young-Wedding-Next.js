@@ -10,6 +10,7 @@ import { usePathname } from "next/navigation";
 const sidebar = {
 	open: ({
 	  opacity: 1,
+	  pointerEvents: "auto",
 	  transition: {
 		type: "spring",
 		stiffness: 400,
@@ -22,6 +23,9 @@ const sidebar = {
 		type: "spring",
 		stiffness: 400,
 		damping: 40
+	  },
+	  transitionEnd: {
+		pointerEvents: "none"
 	  }
 	}
   };
@@ -43,6 +47,8 @@ export default function Header() {
 			    className="w-full flex"
      			initial={false}
       			animate={isOpen ? "open" : "closed"}>
+
+				{/* @ts-ignore */}
       			<motion.div className="fixed z-0 top-0 left-0 w-screen h-screen bg-primary" variants={sidebar}>
       			<Navigation />
 				</motion.div>
