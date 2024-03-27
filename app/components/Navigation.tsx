@@ -11,7 +11,7 @@ const NavLinks = [
 
 const variants = {
   open: {
-    transition: { staggerChildren: 0.07, delayChildren: 0.2 }
+    transition: { staggerChildren: 0.07 }
   },
   closed: {
   }
