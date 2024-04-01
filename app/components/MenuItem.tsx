@@ -21,9 +21,9 @@ const variants = {
 
 }
 
-export const MenuItem = ({i} : {i : {id: number, path: string, name: string, description: string}}) => {
+export const MenuItem = ({i} : {i : {id: number, path: string, name: string, description: string, external: boolean}}) => {
     const pathname = usePathname();
-    const isActive = (path : any) => path === pathname
+    const isActive = (path : any) => path === pathname;
     
   return (
     <li className="overflow-hidden relative flex flex-col justify-center items-center" key={i.id}>
@@ -32,11 +32,23 @@ export const MenuItem = ({i} : {i : {id: number, path: string, name: string, des
     color: "var(--accent-rgb)",
     transition: { duration: 0.2 },
   }}>
-        <Link 
+    {
+     i.external ? (
+      <Link 
             href={i.path}
+            target="_blank"
 			      className={isActive(i.path) ? 'text-accent lg:text-9xl text-4xl uppercase' : 'lg:text-9xl text-4xl uppercase'}>
 		    {i.name}
 		  </Link>
+     ) : (
+      <a 
+            href={i.path}
+			      className={isActive(i.path) ? 'text-accent lg:text-9xl text-4xl uppercase' : 'lg:text-9xl text-4xl uppercase'}>
+		    {i.name}
+		  </a>
+     )
+      
+    }   
     </motion.div>
     </li>
   );

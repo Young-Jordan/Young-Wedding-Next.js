@@ -27,14 +27,14 @@ export default function Timer() {
   
   return (
 
-    <div className="flex gap-x-8 text-2xl font-sans lg:flex-row flex-col hidden">
+    <div className="flex gap-x-4 text-base font-serif lg:flex-row flex-col mr-auto hidden">
       <div className="timer-segment">
-        <span className="pr-2">{days}</span>
+        <span className="pr-1">{days}</span>
         <span className="label">Days</span>
       </div>
      <span>&</span>
       <div className="timer-segment">
-        <span className="pr-2">{hours}</span>
+        <span className="pr-1">{hours}</span>
         <span className="label">Hours</span>
       </div>
 

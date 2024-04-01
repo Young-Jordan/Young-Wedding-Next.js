@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 import localFont from 'next/font/local'
-import { Urbanist, Beth_Ellen } from "next/font/google";
+import { Poppins, Beth_Ellen } from "next/font/google";
 import "./globals.css";
 import Header from "./header";
-import Script from "next/script";
 import Footer from "./footer";
 
  
@@ -13,9 +12,10 @@ const seasons = localFont({
   variable: '--font-the-seasons'
 })
 
-const urbanist = Urbanist({
+const poppins = Poppins({
+  weight: "400",
   subsets: ["latin"],
-  variable: "--font-urbanist"
+  variable: "--font-poppins"
 })
 
 const beth_ellen = Beth_Ellen({
@@ -36,7 +36,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${seasons.variable} font-serif, ${beth_ellen.variable} font-sans, ${urbanist.variable}, font-mono`}>
+      <body className={`${seasons.variable} font-serif, ${beth_ellen.variable} font-sans, ${poppins.variable}, font-mono`}>
         <Header />
         <main>
           {children}

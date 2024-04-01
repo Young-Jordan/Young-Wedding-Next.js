@@ -6,7 +6,9 @@ import { MenuToggle } from "./components/MenuToggle";
 import { Navigation } from "./components/Navigation";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import music from "../public/audio/meeting-lilias.wav"
+import Image from "next/image";
+import logo from "../public/images/Jikole_Motifs_rings.png"
+import Timer from "./components/timer";
 
 const sidebar = {
 	open: ({
@@ -55,8 +57,12 @@ export default function Header() {
 				</motion.div>
 				<div className="lg:flex grid grid-cols-3 z-10 gap-x-8 items-center lg:justify-start justify-center w-full">
       			<MenuToggle toggle={() => toggleOpen()} />
-				<Link href="/" className="font-sans lg:text-xl text-sm mb-2 text-center lg:text-left">J<br className="lg:hidden" />&<br className="lg:hidden" />N</Link>
-				<p className="font-sans relative z-10 lg:text-base text-sm mb-2 ml-auto">11<span className="lg:mx-2 mx-1">.</span>17<span className="lg:mr-2 mr-1">.</span>24</p>
+				<Link href="/" className="font-sans lg:text-xl text-sm mb-2 text-center justify-self-center lg:text-left">
+				<Image className="" src={logo} width={50} height={400} alt="bow"/>
+				</Link>
+				<div className="ml-auto flex items-center">
+				<p className="font-sans relative z-10 lg:text-base text-sm mb-2 ml-4">11<span className="lg:mx-2 mx-1">.</span>17<span className="lg:mr-2 mr-1">.</span>24</p>
+				</div>
 				</div>
     		</motion.nav>
         </header>

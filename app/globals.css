@@ -17,8 +17,8 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-rgb: 253, 242, 231;
-  --accent-rgb: #ba8a5f;
+  --background-rgb: 242, 237, 234;
+  --accent-rgb: #b38b6d;
 }
 
 audio::-webkit-media-controls-enclosure {

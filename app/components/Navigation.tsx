@@ -4,9 +4,9 @@ import { MenuItem } from "./MenuItem";
 
 const NavLinks = [
 
-	{ id: 1, name: 'rsvp', path: '/rsvp', description: "Let us know you can make it" },
-	{ id: 2, name: 'registry', path: '/registry', description: "Where we are registered for gifts" },
-  { id: 3, name: 'details', path: '/details', description: "When & where its happening"},
+	{ id: 1, name: 'rsvp', path: '/rsvp', description: "Let us know you can make it", external: false },
+	{ id: 2, name: 'registry', path: 'https://www.zola.com/registry/jordanandnikole/?preview=true', description: "Where we are registered for gifts", external: false},
+  { id: 3, name: 'details', path: '/details', description: "When & where its happening", external: true},
 ];
 
 const variants = {
