@@ -6,8 +6,8 @@ import ring from "../../public/Images/Jordan_Nikole.png";
 import Link from "next/link";
 
 export const MainHero = () => (
-    <section className="lg:flex snap-center grid grid-rows-3 lg:flex-col h-screen min-h-screen items-center text-center justify-center lg:p-24 lg:pb-12 p-5 lg:gap-y-12">
-      <div className="relative flex flex-col gap-y-12 mt-[25%] items-center row-start-2">
+    <section className="snap-center grid grid-rows-3 h-screen min-h-screen items-center text-center justify-center lg:p-24 lg:pb-12 p-5 lg:gap-y-12">
+      <div className="relative flex flex-col gap-y-12 lg:mt-0 mt-[25%] items-center row-start-2">
       <div className="relative">  
         <motion.div animate={{ rotateZ: 5 }} transition={{ duration: 2, repeat: Infinity, repeatType: "mirror"}} className="absolute z-0 right-4 bottom-0 lg:-right-20 lg:-top-20">
           <Image className="w-20 lg:w-auto" src={bow} width={150} height={400} alt="bow"/>
