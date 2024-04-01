@@ -2,7 +2,7 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import bow from "../../public/Images/Jikole_Motifs_bow.png";
-import ring from "../../public/images/Jordan_Nikole.png";
+import ring from "../../public/Images/Jordan_Nikole.png";
 import Link from "next/link";
 
 export const MainHero = () => (
