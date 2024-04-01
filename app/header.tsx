@@ -8,7 +8,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 import logo from "../public/images/Jikole_Motifs_rings.png"
-import Timer from "./components/timer";
 
 const sidebar = {
 	open: ({
