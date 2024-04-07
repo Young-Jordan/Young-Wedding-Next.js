@@ -2,13 +2,13 @@
 
 @layer base {
   h1 {
-    @apply text-6xl;
+    @apply lg:text-5xl text-3xl;
   }
   h2 {
-    @apply text-3xl;
+    @apply lg:text-3xl text-2xl;
   }
   h3 {
-    @apply text-2xl leading-relaxed;
+    @apply lg:text-2xl text-xl leading-relaxed;
   }
 }
 
@@ -50,7 +50,7 @@ h4,h5,h6 {
   font-family: var(--font-beth-ellen);
 }
 
-a, p {
+a, p, button {
   font-family: var(--font-the-seasons);
 }
 

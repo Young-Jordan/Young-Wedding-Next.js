@@ -20,7 +20,7 @@ export default function AboutUs() {
       </div>
       <div className="w-1/3 hidden">
       <motion.div animate={{ rotateZ: -0 }} transition={{ duration: 2, repeat: Infinity, repeatType: "mirror"}} className="mx-auto">
-      <Appear delay={0.22}>
+      <Appear>
           {/*<Image className="mx-auto aspect-square object-cover w-2/3 rounded-full opacity-25 overflow-hidden" src={intimate} width={400} height={400} alt="jordan & nikole"/>*/}
       </Appear>
         </motion.div>  

@@ -44,7 +44,7 @@ export default function Header() {
 	}, [pathname])
 
     return(
-        <header className="fixed w-screen flex p-8 z-50 overflow-hidden">
+        <header className="fixed w-screen flex lg:p-8 p-4 z-50 overflow-hidden bg-primary lg:bg-transparent">
 			<motion.nav
 			    className="w-full flex"
      			initial={false}

@@ -11,10 +11,15 @@ export default function RSVP() {
                 src="https://tally.so/widgets/embed.js"
                 onLoad={() => {
                     /* ts-ignore */
-                    console.log('trigger load embed')
-                    document.querySelector(".iframe-contianer")?.classList.toggle("opacity-0")
+                    console.log('trigger load embed');
+                    document.querySelector(".iframe-contianer")?.classList.add("opacity-100");
+                    /* ts-ignore */
+                    //Tally.loadEmbeds();
                 }}
             />
+
+
+        <Script id="tally-script">{"/* ts-ignore */console.log('trigger load embed');Tally.loadEmbeds();document.querySelector('.iframe-contianer')?.classList.add('opacity-100');"}</Script>
       </div>
     </section>
   )
