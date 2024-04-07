@@ -1,8 +1,8 @@
 'use client'
 import Image from "next/image";
 import { motion } from "framer-motion";
-import bow from "../../public/Images/Jikole_Motifs_bow.png";
-import ring from "../../public/Images/Jordan_Nikole.png";
+import bow from "../../publicImages/Jikole_Motifs_bow.png";
+import ring from "../../publicImages/Jordan_Nikole.png";
 import Link from "next/link";
 import Appear from "./Appear";
 

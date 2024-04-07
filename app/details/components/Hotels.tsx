@@ -1,10 +1,10 @@
 import React from "react";
 import HotelItem from "./HotelItem";
-import hoxton from "../../../public/images/williamsburg-rooms-nav.webp";
-import willam from "../../../public/images/the-william-vale.jpg";
-import ravel from "../../../public/images/ravel.jpeg";
-import sonder from "../../../public/images/Sonder.jpeg";
-import boxHouse from "../../../public/images/the-box-house.jpeg";
+import hoxton from "../../../publicImages/williamsburg-rooms-nav.webp";
+import willam from "../../../publicImages/the-william-vale.jpg";
+import ravel from "../../../publicImages/ravel.jpeg";
+import sonder from "../../../publicImages/Sonder.jpeg";
+import boxHouse from "../../../publicImages/the-box-house.jpeg";
 import Appear from "../../components/Appear";
 export default function Hotels() {
   return (
