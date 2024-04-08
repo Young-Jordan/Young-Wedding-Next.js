@@ -7,7 +7,7 @@ import { Navigation } from "./components/Navigation";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
-import logo from "../publicImages/Jikole_Motifs_rings.png"
+import logo from "../public/Images/Jikole_Motifs_rings.png"
 
 const sidebar = {
 	open: ({
