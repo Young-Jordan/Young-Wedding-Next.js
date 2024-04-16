@@ -6,7 +6,7 @@ export default function Venue() {
   return (
     <section className="flex snap-center min-h-screen flex-col items-center text-center justify-start lg:gap-y-12">
       <div className="flex flex-col items-start lg:mt-0 mt-12 lg:h-[40vh] w-screen relative overflow-hidden">
-        <h1 className="font-sans absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+        <h1 className="font-serif absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
           The Venue
         </h1>
         <video
@@ -27,9 +27,8 @@ export default function Venue() {
         <p>
           The Bordone LIC, a premier event space in Long Island City, boasts
           breathtaking skyline views, a spacious outdoor terrace, and a modern,
-          versatile interior, perfect for memorable weddings. This venue offers
-          an elegant backdrop for your special day, blending urban charm with
-          sophistication.
+          versatile interior. We are so excited to be able to host everyone here
+          for both the ceremony & reception.
         </p>
         <Appear>
           <Link

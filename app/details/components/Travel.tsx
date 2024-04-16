@@ -5,7 +5,7 @@ export default function Travel() {
   return (
     <section className="flex min-h-screen flex-col items-center text-center justify-center lg:gap-y-12">
       <div className="flex flex-col items-center p-6 mt-12 max-w-screen-lg mx-auto mb-14">
-        <h1 className="lg:mb-24 mb-12 font-sans">Travel</h1>
+        <h1 className="lg:mb-24 mb-12 font-serif">Travel</h1>
         <div className="flex text-center lg:flex-row lg:items-center lg:text-left flex-col items-center gap-8 lg:mx-20 lg:px-0 px-6">
           <div className="lg:w-1/2 w-full">
             <h2 className="mb-4">Fly into NYC, then uber to your hotel.</h2>

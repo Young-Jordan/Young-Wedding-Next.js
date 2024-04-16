@@ -5,10 +5,11 @@ interface AccordionProps {
   title: string;
   children: ReactNode;
   isOpen?: boolean;
+  className?: string;
   onClick?: () => void;
 }
 
-export default function AccordionItem({title, children, isOpen, onClick} : AccordionProps) {
+export default function AccordionItem({title, children, isOpen, className, onClick} : AccordionProps) {
   const [contentHeight, setContentHeight] = useState(0);
   const contentRef = useRef<HTMLDivElement>(null);
 
@@ -19,13 +20,13 @@ export default function AccordionItem({title, children, isOpen, onClick} : Accor
     }
   }, [isOpen, children]);
   return (
-    <div>
-      <button onClick={onClick} className='w-full text-2xl' style={{ display: 'flex', alignItems: 'center' }}>
+    <div className={className}>
+      <button onClick={onClick} className='w-full lg:text-2xl text-xl font-bold' style={{ display: 'flex', alignItems: 'center' }}>
         {title}
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className='transition-transform'
-          style={{ transform: `rotate(${isOpen ? '0deg' : '90deg'})`, marginLeft: 'auto' }}
+          style={{ transform: `rotate(${isOpen ? '0deg' : '-90deg'})`, marginLeft: 'auto' }}
           width="24"
           height="24"
           viewBox="0 0 24 24"

@@ -7,7 +7,7 @@ import { Navigation } from "./components/Navigation";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
-import logo from "../public/Images/Jikole_Motifs_rings.png"
+import logo from "../public/Images/Jikole_Motifs_heart.png"
 
 const sidebar = {
 	open: ({
@@ -57,7 +57,7 @@ export default function Header() {
 				<div className="lg:flex grid grid-cols-3 z-10 gap-x-8 items-center lg:justify-start justify-center w-full">
       			<MenuToggle toggle={() => toggleOpen()} />
 				<Link href="/" className="font-sans lg:text-xl text-sm mb-2 text-center justify-self-center lg:text-left">
-				<Image className="" src={logo} width={50} height={400} alt="bow"/>
+				<Image className="" src={logo} width={70} height={400} alt="bow"/>
 				</Link>
 				<div className="ml-auto flex items-center">
 				<p className="font-sans relative z-10 lg:text-base text-sm mb-2 ml-4">11<span className="lg:mx-2 mx-1">.</span>17<span className="lg:mr-2 mr-1">.</span>24</p>

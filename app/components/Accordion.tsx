@@ -4,9 +4,10 @@ import React, { useState, ReactElement } from 'react';
 
 interface AccordionProps {
   children: ReactElement[];
+  className?: string;
 }
 
-export default function Accordion({children} : AccordionProps) {
+export default function Accordion({children, className} : AccordionProps) {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const handleAccordionClick = (index: number) => {
@@ -19,7 +20,7 @@ export default function Accordion({children} : AccordionProps) {
   };
 
   return (
-    <div>
+    <div className={className}>
       {React.Children.map(children, (child, index) =>
         React.cloneElement(child, {
           isOpen: index === openIndex,
