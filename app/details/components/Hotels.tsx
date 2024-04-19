@@ -35,7 +35,7 @@ export default function Hotels() {
             time_to_venue={"15 min"}
             walk
             hotel_description={
-              "Sonder Hotel LIC features modern, spacious rooms, skyline views, convenient amenities, and a prime location in Long Island City, New York."
+              "Sonder Hotel LIC features modern, spacious rooms, skyline views. Use Discount code LOSPC5 for 5% off. Sign up to be a member for an additional 15% off."
             }
             hotel_link={
               "https://www.sonder.com/destinations/new_york_city/court-square/c34198?sleeps=1&check_in_dt=2024-11-15&check_out_dt=2024-11-18&utm_medium=cpc&utm_source=google&utm_term=sonder+court+square&utm_campaign=15996984601"
