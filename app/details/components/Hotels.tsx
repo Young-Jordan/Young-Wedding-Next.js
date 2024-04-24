@@ -5,6 +5,7 @@ import willam from "../../../public/Images/the-william-vale.jpg";
 import ravel from "../../../public/Images/ravel.jpeg";
 import sonder from "../../../public/Images/Sonder.jpeg";
 import boxHouse from "../../../public/Images/the-box-house.jpeg";
+import marriot from "../../../public/Images/marriot.jpg"
 import Appear from "../../components/Appear";
 export default function Hotels() {
   return (
@@ -21,40 +22,38 @@ export default function Hotels() {
             image={willam}
             hotel_name={"The Willam Vale"}
             time_to_venue={"15 min"}
+            block_count={10}
             staying
             hotel_description={
               "The William Vale, an upscale hotel in Williamsburg, boasts luxurious rooms, a rooftop pool, and stunning views of Manhattan."
             }
             hotel_link={"https://www.thewilliamvale.com/"}
-            cost={"$720-$1000"}
+            cost={"$520-$1000"}
           />
           <HotelItem
             image={sonder}
             hotel_name={"Sonder"}
-            badge="Best Location!"
+            badge="LOSPC5 for 5% off"
             time_to_venue={"15 min"}
             walk
             hotel_description={
-              "Sonder Hotel LIC features modern, spacious rooms, skyline views. Use Discount code LOSPC5 for 5% off. Sign up to be a member for an additional 15% off."
+              "Sonder Hotels are spaced out across the city. Sign up to be a member for an additional 15% off. Court Square location is closest to the venue."
             }
             hotel_link={
-              "https://www.sonder.com/destinations/new_york_city/court-square/c34198?sleeps=1&check_in_dt=2024-11-15&check_out_dt=2024-11-18&utm_medium=cpc&utm_source=google&utm_term=sonder+court+square&utm_campaign=15996984601"
+              "https://www.sonder.com/destinations/new_york_city/search?sleeps=1&neighborhood=all_neighborhoods&bedroom_count=0&bed_count=1&bathroom_count=1"
             }
             cost={"$250-$500"}
           />
-          <HotelItem
-            image={ravel}
-            hotel_name={"The Ravel"}
-            badge="Walking Distance!"
-            walk
-            time_to_venue={"3 min"}
+           <HotelItem
+            image={marriot}
+            time_to_venue={"7 min"}
+            hotel_name={"Courtyard Marriot"}
+            block_count={15}
             hotel_description={
-              "The Ravel Hotel in LIC offers chic accommodations, stunning city views, a rooftop bar, and modern amenities in a vibrant neighborhood."
+              "Offering comfortable accommodations and contemporary amenities, ideally located near our venue and convenient transportation options in Queens, New York."
             }
-            hotel_link={
-              "https://www.wyndhamhotels.com/trademark/long-island-city-new-york/ravel-hotel-trademark-collection-by-wyndham/overview?CID=LC:4d7auublw4ufaga:52325&iata=00093796"
-            }
-            cost={"$300-$500"}
+            hotel_link={"https://thehoxton.com/williamsburg/"}
+            cost={"$209-$220"}
           />
           <HotelItem
             image={hoxton}
