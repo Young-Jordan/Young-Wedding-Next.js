@@ -52,7 +52,7 @@ export default function Hotels() {
             hotel_description={
               "Offering comfortable accommodations and contemporary amenities, ideally located near our venue and convenient transportation options in Queens, New York."
             }
-            hotel_link={"https://thehoxton.com/williamsburg/"}
+            hotel_link={"https://www.marriott.com/event-reservations/reservation-link.mi?id=1715259595286&key=GRP&app=resvlink"}
             cost={"$209-$220"}
           />
           <HotelItem
