@@ -22,7 +22,7 @@ export default function Hotels() {
             image={willam}
             hotel_name={"The Willam Vale"}
             time_to_venue={"15 min"}
-            block_count={10}
+            block_count={15}
             staying
             hotel_description={
               "The William Vale, an upscale hotel in Williamsburg, boasts luxurious rooms, a rooftop pool, and stunning views of Manhattan."
