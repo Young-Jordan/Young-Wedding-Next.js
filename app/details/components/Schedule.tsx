@@ -17,7 +17,7 @@ export default function Schedule() {
           <AccordionItem className="py-6 border-b border-black" title={"Saturday November 16th"}>
             <div className="font-serif py-6">
               The henna ceremony will be
-              held on saturday. This event is an intimate gathering,
+              held on saturday as a brunch, final time still to be determined. This event is an intimate gathering,
               and as such, attendance is limited. We kindly ask you to wait for
               your invitation to confirm whether you are included in this
               special occasion.<br></br><br></br>Hosted By Betty Young.
