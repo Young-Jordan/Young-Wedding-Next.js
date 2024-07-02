@@ -27,7 +27,7 @@ export default function Hotels() {
             hotel_description={
               "The William Vale, an upscale hotel in Williamsburg, boasts luxurious rooms, a rooftop pool, and stunning views of Manhattan."
             }
-            hotel_link={"https://www.thewilliamvale.com/"}
+            hotel_link={"https://be.synxis.com/?Hotel=79629&Chain=22704&arrive=2024-11-15&depart=2024-11-17&adult=1&child=0&group=7471026"}
             cost={"$520-$1000"}
           />
           <HotelItem
