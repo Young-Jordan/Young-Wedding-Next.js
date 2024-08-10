@@ -11,9 +11,6 @@ export default function HENNA() {
           loading="lazy"
           width="100%"
           height="187"
-          frameborder="0"
-          marginheight="0"
-          marginwidth="0"
           title="Henna Ceremony"
         ></iframe>
         <Script
