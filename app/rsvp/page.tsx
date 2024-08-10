@@ -9,7 +9,7 @@ export default function RSVP() {
           data-tally-src="https://tally.so/r/3jyGy4?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
           loading="lazy"
           width="100%"
-          height="400"
+          height="100%"
           title="null"
         ></iframe>
         <Script
