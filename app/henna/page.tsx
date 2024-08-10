@@ -5,14 +5,9 @@ export default function HENNA() {
   return (
     <section className="flex min-h-screen flex-col items-center justify-center lg:p-24 p-12">
       <h2 className="mb-6"> Henna RSVP </h2>
-      <div className=" max-w-sm w-full opacity-0 iframe-contianer h-max transition-opacity delay-500">
+      <div className=" max-w-sm w-full opacity-0 iframe-contianer h-full transition-opacity delay-500">
         <iframe
-          data-tally-src="https://tally.so/r/nrKNKlalignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
-          loading="eager"
-          width="100%"
-          height="100%"
-          title="null"
-        ></iframe>
+       <iframe data-tally-src="https://tally.so/embed/nrKNKl?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="eager" width="100%" height="187" frameborder="0" marginheight="0" marginwidth="0" title="Henna Ceremony"></iframe>
         <Script
           id="tally-js"
           src="https://tally.so/widgets/embed.js"

@@ -3,14 +3,17 @@ import Script from "next/script";
 
 export default function RSVP() {
   return (
-    <section className="flex min-h-screen flex-col items-center justify-center lg:p-24 p-12">
-      <div className=" max-w-sm w-full opacity-0 iframe-contianer h-max transition-opacity delay-500">
+    <section className="flex min-h-screen flex-col items-center h-full justify-center lg:p-24 p-12">
+      <div className="max-w-sm w-full opacity-0 iframe-contianer h-full transition-opacity delay-500">
         <iframe
-          data-tally-src="https://tally.so/r/3jyGy4?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
-          loading="lazy"
+          data-tally-src="https://tally.so/embed/3jyGy4?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+          loading="eager"
           width="100%"
-          height="100%"
-          title="null"
+          height="187"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0"
+          title="Wedding RSVP"
         ></iframe>
         <Script
           id="tally-js"
