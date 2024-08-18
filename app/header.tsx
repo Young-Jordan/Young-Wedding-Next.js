@@ -52,9 +52,9 @@ export default function Header() {
         initial={false}
         animate={isOpen ? "open" : "closed"}
       >
-        {/* @ts-ignore */}
         <motion.div
           className="fixed z-0 top-0 left-0 w-screen h-screen bg-primary"
+          /* @ts-ignore */
           variants={sidebar}
         >
           <Navigation />
