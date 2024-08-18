@@ -33,14 +33,21 @@ const NavLinks = [
     description: "When & where its happening",
     external: false,
   },
+  {
+    id: 4,
+    name: "Attire",
+    path: "details/attire",
+    description: "When & where its happening",
+    external: false,
+  },
 ];
 
 export default function DetailsNav() {
   return (
-    <motion.nav className="w-full flex fixed lg:items-center lg:justify-center z-50 p-6 bg-white bottom-0 overflow-scroll">
+    <motion.nav className="w-screen flex flex-wrap fixed lg:items-center lg:justify-center z-50 p-6 bg-white bottom-0">
       {/* @ts-ignore */}
-      <motion.ul className="">
-        <Appear className="flex lg:gap-x-16 gap-x-6">
+      <motion.ul className="w-full flex flex-wrap">
+        <Appear className="flex lg:gap-x-16 gap-x-6 gap-y-2 justify-center flex-wrap w-full">
           {NavLinks.map((i) => (
             <SubMenuItem i={i} key={i.id} />
           ))}
