@@ -21,7 +21,7 @@ const NavLinks = [
   },
   {
     id: 2,
-    name: "FAQ & Schedule",
+    name: "Schedule",
     path: "/details/faq",
     description: "Where we are registered for gifts",
     external: false,
@@ -32,7 +32,7 @@ export default function HeroNav() {
   return (
     <motion.nav className="w-full flex fixed lg:items-center lg:justify-center z-50 p-6 bg-white bottom-0 overflow-scroll">
       {/* @ts-ignore */}
-      <motion.ul className="">
+      <motion.ul className="mx-auto">
         <Appear className="flex lg:gap-x-16 gap-x-6">
           {NavLinks.map((i) => (
             <SubMenuItem i={i} key={i.id} />
