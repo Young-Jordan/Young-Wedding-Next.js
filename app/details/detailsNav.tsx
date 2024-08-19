@@ -36,7 +36,7 @@ const NavLinks = [
   {
     id: 4,
     name: "Attire",
-    path: "details/attire",
+    path: "/details/attire",
     description: "When & where its happening",
     external: false,
   },
