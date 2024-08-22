@@ -8,50 +8,50 @@ import Image from "next/image";
 
 export const GuestAttire = () => (
   <div>
-    <section className="flex snap-center flex-col items-center justify-center lg:gap-y-12">
-      <div className="flex flex-col items-center mt-32 mb-14 lg:p-0 px-0 relative gap-y-6">
+    <section className="flex snap-center flex-col items-center justify-center lg:gap-y-12 h-dvh">
+      <div className="h-full flex flex-col items-center mt-32 mb-14 lg:p-0 px-0 relative gap-y-6">
         <Image
-          className="w-full lg:w-auto"
+          className="w-3/4 lg:w-auto lg:h-full lg:py-32"
           src={page1}
           width={1920}
           alt="Guest Attire Page 1"
         />
       </div>
     </section>
-    <section className="flex snap-center flex-col items-center justify-center lg:gap-y-12">
-      <div className="flex flex-col items-center mt-32 mb-14 lg:p-0 px-0 relative gap-y-6">
+    <section className="flex snap-center flex-col items-center justify-center lg:gap-y-12 h-dvh">
+      <div className="h-full flex flex-col items-center mt-32 mb-14 lg:p-0 px-0 relative gap-y-6">
         <Image
-          className="w-full lg:w-auto"
+          className="w-3/4 lg:w-auto lg:h-full lg:py-32"
           src={page2}
           width={1920}
           alt="Guest Attire Page 1"
         />
       </div>
     </section>
-    <section className="flex snap-center flex-col items-center justify-center lg:gap-y-12">
-      <div className="flex flex-col items-center mt-32 mb-14 lg:p-0 px-0 relative gap-y-6">
+    <section className="flex snap-center flex-col items-center justify-center lg:gap-y-12 h-dvh">
+      <div className="h-full flex flex-col items-center mt-32 mb-14 lg:p-0 px-0 relative gap-y-6">
         <Image
-          className="w-full lg:w-auto"
+          className="w-3/4 lg:w-auto lg:h-full lg:py-32"
           src={page3}
           width={1920}
           alt="Guest Attire Page 1"
         />
       </div>
     </section>
-    <section className="flex snap-center flex-col items-center justify-center lg:gap-y-12">
-      <div className="flex flex-col items-center mt-32 mb-14 lg:p-0 px-0 relative gap-y-6">
+    <section className="flex snap-center flex-col items-center justify-center lg:gap-y-12 h-dvh">
+      <div className="h-full flex flex-col items-center mt-32 mb-14 lg:p-0 px-0 relative gap-y-6">
         <Image
-          className="w-full lg:w-auto"
+          className="w-3/4 lg:w-auto lg:h-full lg:py-32"
           src={page4}
           width={1920}
           alt="Guest Attire Page 1"
         />
       </div>
     </section>
-    <section className="flex snap-center flex-col items-center justify-center lg:gap-y-12">
-      <div className="flex flex-col items-center mt-32 mb-14 lg:p-0 px-0 relative gap-y-6">
+    <section className="flex snap-center flex-col items-center justify-center lg:gap-y-12 h-dvh">
+      <div className="h-full flex flex-col items-center mt-32 mb-14 lg:p-0 px-0 relative gap-y-6">
         <Image
-          className="w-full lg:w-auto"
+          className="w-3/4 lg:w-auto lg:h-full lg:py-32"
           src={page5}
           width={1920}
           alt="Guest Attire Page 1"

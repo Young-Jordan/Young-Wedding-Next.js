@@ -27,7 +27,12 @@ export default function Schedule() {
               attendance is limited. We kindly ask you to wait for your
               invitation to confirm whether you are included in this special
               occasion.<br></br>
-              <br></br>Hosted By Betty Young.
+              <br></br>Hosted By Betty Young.<br></br>
+              <br></br>
+              Following the henna there will be a rehersal at The Bordone &
+              rehersal dinner with the location to be decided.
+              <br></br>
+              <br></br>For immediate family, sponsors & birdal party only.
             </div>
           </AccordionItem>
           <AccordionItem className="py-6" title={"Sunday November 17th"}>

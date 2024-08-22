@@ -5,6 +5,10 @@ export default function HENNA() {
   return (
     <section className="flex min-h-screen flex-col items-center justify-center lg:p-24 p-12">
       <h2 className="mb-6"> Henna RSVP </h2>
+      <p className="mb-6 text-center">
+        This is an intimate event & space is limited. Please let us know if you
+        have any questions or are unsure about your invite.
+      </p>
       <div className=" max-w-sm w-full opacity-0 iframe-contianer h-full transition-opacity delay-500">
         <iframe
           data-tally-src="https://tally.so/embed/nrKNKl?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"

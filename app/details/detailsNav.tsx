@@ -14,30 +14,23 @@ const NavLinks = [
   },
   {
     id: 1,
+    name: "Attire",
+    path: "/details/attire",
+    description: "When & where its happening",
+    external: false,
+  },
+  {
+    id: 2,
     name: "Travel",
     path: "/details/travel",
     description: "Let us know you can make it",
     external: false,
   },
   {
-    id: 2,
+    id: 3,
     name: "Hotels",
     path: "/details/hotels",
     description: "Where we are registered for gifts",
-    external: false,
-  },
-  {
-    id: 3,
-    name: "FAQ",
-    path: "/details/faq",
-    description: "When & where its happening",
-    external: false,
-  },
-  {
-    id: 4,
-    name: "Attire",
-    path: "/details/attire",
-    description: "When & where its happening",
     external: false,
   },
 ];
