@@ -37,6 +37,9 @@ export default function HENNA() {
           }
         </Script>
       </div>
+      <div className="font-serif font-bold mb-9">
+        Please RSVP for the henna by September 15th
+      </div>
     </section>
   );
 }

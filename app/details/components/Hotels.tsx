@@ -5,7 +5,7 @@ import willam from "../../../public/Images/the-william-vale.jpg";
 import ravel from "../../../public/Images/ravel.jpeg";
 import sonder from "../../../public/Images/Sonder.jpeg";
 import boxHouse from "../../../public/Images/the-box-house.jpeg";
-import marriot from "../../../public/Images/marriot.jpg"
+import marriot from "../../../public/Images/marriot.jpg";
 import Appear from "../../components/Appear";
 export default function Hotels() {
   return (
@@ -15,19 +15,21 @@ export default function Hotels() {
         <p className="max-w-sm mb-12">
           Here are some hotels we recommend you stay for your time celebrating
           with us. We are currently working on placing blocks on all these
-          hotels so check back when we send the official invites to see which of these hotels have blocks.
+          hotels so check back when we send the official invites to see which of
+          these hotels have blocks.
         </p>
         <Appear className="grid lg:grid-cols-3 grid-cols-1 text-center gap-8 w-full max-w-screen-2xl mx-auto">
           <HotelItem
             image={willam}
             hotel_name={"The Willam Vale"}
             time_to_venue={"15 min"}
-            block_count={15}
             staying
             hotel_description={
               "The William Vale, an upscale hotel in Williamsburg, boasts luxurious rooms, a rooftop pool, and stunning views of Manhattan."
             }
-            hotel_link={"https://be.synxis.com/?Hotel=79629&Chain=22704&arrive=2024-11-15&depart=2024-11-17&adult=1&child=0&group=7471026"}
+            hotel_link={
+              "https://be.synxis.com/?Hotel=79629&Chain=22704&arrive=2024-11-15&depart=2024-11-17&adult=1&child=0&group=7471026"
+            }
             cost={"$520-$1000"}
           />
           <HotelItem
@@ -44,15 +46,16 @@ export default function Hotels() {
             }
             cost={"$250-$500"}
           />
-           <HotelItem
+          <HotelItem
             image={marriot}
             time_to_venue={"7 min"}
             hotel_name={"Courtyard Marriot"}
-            block_count={15}
             hotel_description={
               "Offering comfortable accommodations and contemporary amenities, ideally located near our venue and convenient transportation options in Queens, New York."
             }
-            hotel_link={"https://www.marriott.com/event-reservations/reservation-link.mi?id=1715259595286&key=GRP&app=resvlink"}
+            hotel_link={
+              "https://www.marriott.com/event-reservations/reservation-link.mi?id=1715259595286&key=GRP&app=resvlink"
+            }
             cost={"$209-$220"}
           />
           <HotelItem

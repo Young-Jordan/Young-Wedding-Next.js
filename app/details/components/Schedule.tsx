@@ -29,6 +29,17 @@ export default function Schedule() {
               occasion.<br></br>
               <br></br>Hosted By Betty Young.<br></br>
               <br></br>
+              <div className="font-serif">
+                Location:<br></br>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.google.com/maps/search/?api=1&amp;query=Google&amp;query_place_id=ChIJE_MAsd9fwokR-tWj500Eu_A"
+                >
+                  ATMOSFERA 3801 23rd Ave Queens, NY 11105
+                </a>
+              </div>
+              <br></br>
               Following the henna there will be a rehersal at The Bordone &
               rehersal dinner with the location to be decided.
               <br></br>
