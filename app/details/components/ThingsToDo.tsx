@@ -20,8 +20,8 @@ export default function ThingsToDo() {
               Devocion Williamsburg 69 Grand St, Brooklyn, NY 11249
               https://www.devocion.com/
               <br></br>
-              Joe's Coffee Company LIC 4037 23rd St, Long Island City, NY 11101
-              https://joecoffeecompany.com/
+              Joe&apos;s Coffee Company LIC 4037 23rd St, Long Island City, NY
+              11101 https://joecoffeecompany.com/
               <br></br>
               Librae Bakery 35 Cooper Sq, New York, NY 10003
               https://www.libraebakery.com/
